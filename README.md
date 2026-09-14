@@ -77,7 +77,6 @@ ribograph/
   references.py        PubMed-indexed sources (PMID-verified)
   __init__.py
 requirements.txt       Python dependencies
-.streamlit/config.toml Dark theme
 LICENSE.md             MIT license
 ```
 

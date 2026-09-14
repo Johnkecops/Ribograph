@@ -179,7 +179,7 @@ def render_node_panel() -> None:
     st.markdown(f"**{len(edges)} interaction{'s' if len(edges) != 1 else ''}**")
     for other_id, link, direction in edges:
         other = NODE_BY_ID[other_id]
-        verb = link.label if direction == "out" else f"{link.label} of"
+        verb = f"{link.label} →" if direction == "out" else f"← {link.label}"
         note = f" — {link.note}" if link.note else ""
         col_a, col_b = st.columns([4, 1])
         with col_a:
