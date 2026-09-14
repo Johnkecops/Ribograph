@@ -6,6 +6,9 @@ Ribograph is a [Streamlit](https://streamlit.io) application. It maps well-studi
 
 This is a teaching / exploration atlas, not a genome-wide interaction database. Edges are literature-anchored ceRNA sponging, RISC targeting, direct binding, regulation, and disease association.
 
+This app has been accepted to be presented at International  Ankara Congress on Scientific Research XIV, October 2-4 2026, Ankara, Turkey
+[www.ankarakongresi.org/en](https://www.ankarakongresi.org/en). The proceeding is under preparation. 
+
 ## Features
 
 - Force-directed network of lncRNA, miRNA, circRNA, mRNA, RBP, and disease nodes
